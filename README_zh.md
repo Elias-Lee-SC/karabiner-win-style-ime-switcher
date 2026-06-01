@@ -2,7 +2,7 @@
 
 [English](README.md) | 中文 | [Português](README_pt.md) | [日本語](README_ja.md)
 
-這個倉庫提供一份 Karabiner-Elements complex modification 規則，適合從 Windows 轉到 macOS、但仍希望保留熟悉輸入法切換習慣的使用者。
+這個倉庫提供 `windows_style_IME_switcher`，這是一份 Karabiner-Elements complex modification 規則，適合從 Windows 轉到 macOS、但仍希望保留熟悉輸入法切換習慣的使用者。
 
 它適用於同時使用多個 macOS 輸入來源的情境，例如：
 
@@ -70,7 +70,7 @@ English -> Squirrel -> Portuguese
 2. 將這個檔案放入該目錄：
 
 ```text
-windows_style_input_source_switching.json
+windows_style_IME_switcher.json
 ```
 
 3. 打開 Karabiner-Elements。
@@ -83,7 +83,7 @@ Complex Modifications -> Add your own rule
 5. 啟用：
 
 ```text
-Windows style input source switching
+windows_style_IME_switcher
 ```
 
 ## 工作原理
@@ -125,6 +125,6 @@ Control + Shift + /
 3. 從任何非英文輸入來源開始，按 `Control + Space`，確認它會切回英文。
 4. 在 macOS 設定中更改第 2 個輸入來源，再從英文按 `Control + Space`，確認它會切到新的第 2 個輸入來源。
 
-## 授權
+## 維護者
 
-MIT License
+[Elias-Lee-SC](https://github.com/Elias-Lee-SC/)

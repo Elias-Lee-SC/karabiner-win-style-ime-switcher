@@ -1,8 +1,12 @@
 {
-  "title": "Windows style input source switching (timeout test)",
+  "title": "windows_style_IME_switcher",
+  "author": "Elias Lee (https://github.com/Elias-Lee-SC)",
+  "maintainers": [
+    "Elias-Lee-SC"
+  ],
   "rules": [
     {
-      "description": "TEST v1.3: Hold Control and tap Shift alone to switch; 5000ms to_if_alone timeout; pass Control+Shift through when another key follows",
+      "description": "Hold Control and tap Shift alone to switch input sources; pass Control+Shift through when another key follows",
       "manipulators": [
         {
           "type": "basic",
@@ -71,7 +75,7 @@
             }
           ],
           "parameters": {
-            "basic.to_if_alone_timeout_milliseconds": 5000
+            "basic.to_if_alone_timeout_milliseconds": 10000
           }
         }
       ]

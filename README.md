@@ -2,7 +2,7 @@
 
 English | [中文](README_zh.md) | [Português](README_pt.md) | [日本語](README_ja.md)
 
-This repository contains a Karabiner-Elements complex modification rule for macOS users who are used to the Windows-style input method switching workflow.
+This repository contains `windows_style_IME_switcher`, a Karabiner-Elements complex modification rule for macOS users who are used to the Windows-style input method switching workflow.
 
 It is designed for people who use multiple macOS input sources, for example:
 
@@ -70,7 +70,7 @@ System Settings -> Keyboard -> Keyboard Shortcuts -> Input Sources
 2. Put this file into that directory:
 
 ```text
-windows_style_input_source_switching.json
+windows_style_IME_switcher.json
 ```
 
 3. Open Karabiner-Elements.
@@ -83,7 +83,7 @@ Complex Modifications -> Add your own rule
 5. Enable:
 
 ```text
-Windows style input source switching
+windows_style_IME_switcher
 ```
 
 ## How It Works
@@ -125,6 +125,6 @@ After enabling the rule, test these scenarios:
 3. Start from any non-English input source and press `Control + Space`. It should switch back to English.
 4. Change the second input source in macOS settings, then press `Control + Space` from English again. It should switch to the new second input source.
 
-## License
+## Maintainer
 
-MIT License
+[Elias-Lee-SC](https://github.com/Elias-Lee-SC/)

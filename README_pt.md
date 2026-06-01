@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_zh.md) | Português | [日本語](README_ja.md)
 
-Este repositório contém uma regra de complex modification para o Karabiner-Elements, pensada para usuários de macOS que estão acostumados ao fluxo de alternância de métodos de entrada do Windows.
+Este repositório contém `windows_style_IME_switcher`, uma regra de complex modification para o Karabiner-Elements, pensada para usuários de macOS que estão acostumados ao fluxo de alternância de métodos de entrada do Windows.
 
 Ela foi criada para quem usa várias fontes de entrada no macOS, por exemplo:
 
@@ -70,7 +70,7 @@ Definições do Sistema -> Teclado -> Atalhos de teclado -> Tipos de teclado
 2. Coloque este arquivo nesse diretório:
 
 ```text
-windows_style_input_source_switching.json
+windows_style_IME_switcher.json
 ```
 
 3. Abra o Karabiner-Elements.
@@ -83,7 +83,7 @@ Complex Modifications -> Add your own rule
 5. Ative:
 
 ```text
-Windows style input source switching
+windows_style_IME_switcher
 ```
 
 ## Como Funciona
@@ -125,6 +125,6 @@ Depois de ativar a regra, teste estes cenários:
 3. Comece em qualquer fonte de entrada que não seja inglês e pressione `Control + Space`. Ela deve voltar para inglês.
 4. Altere a segunda fonte de entrada nas configurações do macOS e pressione `Control + Space` a partir de inglês novamente. Ela deve mudar para a nova segunda fonte.
 
-## Licença
+## Mantenedor
 
-MIT License
+[Elias-Lee-SC](https://github.com/Elias-Lee-SC/)
