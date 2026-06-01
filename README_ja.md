@@ -15,7 +15,7 @@
 メインのルールファイルは次のファイルです：
 
 ```text
-windows_style_input_source_switching.json
+windows_style_IME_switcher.json
 ```
 
 このルールは 2 つの動作を提供します：

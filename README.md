@@ -15,7 +15,7 @@ It is designed for people who use multiple macOS input sources, for example:
 The main rule file is:
 
 ```text
-windows_style_input_source_switching.json
+windows_style_IME_switcher.json
 ```
 
 It provides two behaviors:

@@ -15,7 +15,7 @@ Ela foi criada para quem usa várias fontes de entrada no macOS, por exemplo:
 O arquivo principal da regra é:
 
 ```text
-windows_style_input_source_switching.json
+windows_style_IME_switcher.json
 ```
 
 Ele oferece dois comportamentos:
