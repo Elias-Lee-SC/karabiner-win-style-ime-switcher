@@ -102,6 +102,8 @@ The `Control + Space` behavior uses Karabiner-Elements input source conditions:
 - `input_source_unless` detects non-English input sources.
 - `select_input_source` switches back to English.
 
+The `Control + Space` manipulators are intentionally matched exactly. Shortcuts that add another modifier, such as `Control + Command + Space`, are left available for macOS or other apps.
+
 The English input source is matched with:
 
 ```json
@@ -124,6 +126,7 @@ After enabling the rule, test these scenarios:
 2. Start from English and press `Control + Space`. It should switch to the second input source.
 3. Start from any non-English input source and press `Control + Space`. It should switch back to English.
 4. Change the second input source in macOS settings, then press `Control + Space` from English again. It should switch to the new second input source.
+5. Press a shortcut that includes another modifier, such as `Control + Command + Space`. It should not be intercepted by this input source rule.
 
 ## Maintainer
 

@@ -102,6 +102,8 @@ Control + Shift + /
 - `input_source_unless` 用來判斷目前是否不是英文。
 - `select_input_source` 用來切回英文。
 
+`Control + Space` 的 manipulator 會刻意做精確匹配。像 `Control + Command + Space` 這種多帶其他修飾鍵的快捷鍵，會保留給 macOS 或其他 App 處理。
+
 英文輸入來源目前使用以下條件匹配：
 
 ```json
@@ -124,6 +126,7 @@ Control + Shift + /
 2. 從英文開始，按 `Control + Space`，確認它會切換到第 2 個輸入來源。
 3. 從任何非英文輸入來源開始，按 `Control + Space`，確認它會切回英文。
 4. 在 macOS 設定中更改第 2 個輸入來源，再從英文按 `Control + Space`，確認它會切到新的第 2 個輸入來源。
+5. 按下多帶其他修飾鍵的快捷鍵，例如 `Control + Command + Space`，確認它不會被這條輸入法規則攔截。
 
 ## 維護者
 

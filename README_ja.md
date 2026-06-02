@@ -102,6 +102,8 @@ Control + Shift + /
 - `input_source_unless` は英語以外の入力ソースを検出します。
 - `select_input_source` は英語へ戻します。
 
+`Control + Space` の manipulator は意図的に完全一致で判定します。`Control + Command + Space` のように別の修飾キーを追加したショートカットは、macOS や他のアプリでそのまま使えます。
+
 英語入力ソースは次の条件で判定しています：
 
 ```json
@@ -124,6 +126,7 @@ Control + Shift + /
 2. English から開始し、`Control + Space` を押します。2 番目の入力ソースへ切り替わるはずです。
 3. 英語以外の入力ソースから開始し、`Control + Space` を押します。English へ戻るはずです。
 4. macOS 設定で 2 番目の入力ソースを変更し、English からもう一度 `Control + Space` を押します。新しい 2 番目の入力ソースへ切り替わるはずです。
+5. `Control + Command + Space` のように別の修飾キーを含むショートカットを押します。この入力ソースルールに割り込まれないはずです。
 
 ## メンテナー
 

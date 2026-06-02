@@ -102,6 +102,8 @@ O comportamento de `Control + Space` usa condições de fonte de entrada do Kara
 - `input_source_unless` detecta fontes de entrada que não são inglês.
 - `select_input_source` volta para inglês.
 
+Os manipulators de `Control + Space` são intencionalmente correspondidos de forma exata. Atalhos que adicionam outro modificador, como `Control + Command + Space`, continuam disponíveis para o macOS ou outros apps.
+
 A fonte de entrada em inglês é identificada com:
 
 ```json
@@ -124,6 +126,7 @@ Depois de ativar a regra, teste estes cenários:
 2. Comece em inglês e pressione `Control + Space`. Ela deve mudar para a segunda fonte de entrada.
 3. Comece em qualquer fonte de entrada que não seja inglês e pressione `Control + Space`. Ela deve voltar para inglês.
 4. Altere a segunda fonte de entrada nas configurações do macOS e pressione `Control + Space` a partir de inglês novamente. Ela deve mudar para a nova segunda fonte.
+5. Pressione um atalho que inclua outro modificador, como `Control + Command + Space`. Ele não deve ser interceptado por esta regra de fonte de entrada.
 
 ## Mantenedor
 
